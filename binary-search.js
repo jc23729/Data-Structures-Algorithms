@@ -1,12 +1,19 @@
  Index  0  1  2    3   4   5  6    7   8   9
        [0, 1, 21, 33, 45, 45, 61, 71, 72, 73] //looking for number 33
-        L                                  R
+        L              M                    R
      
             
 M = Middle number or middle pointer
            
 M = Sum of the index L + R / 2 = Average
-M = (0+9)/2 = 
+M = (0 + 9) / 2 = 4.5
+M = Round down = 4
+    
+    
+IS 45 Which is the middle number greater than 33? No so element all those numbers
+
+     [0, 1, 21, 33, 45, 45, 61, 71, 72, 73] //looking for number 33
+      L              M                   R
+      
 
 
-[0,1,21,33,]
