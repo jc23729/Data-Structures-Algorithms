@@ -16,8 +16,9 @@ IS 45 Which is the middle number greater than 33? No so element all those number
       L              M                   R
       
 
-
-def binarySearch(array, target)
+//Code walkthrough 
+//Soliving in python 
+def binarySearch(array, target):
 return binarySearchHelper(array, target, 0, array - 1)
 
 
