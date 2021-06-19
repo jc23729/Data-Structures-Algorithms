@@ -3,7 +3,10 @@
         L                                  R
      
             
-            
-    
+M = Middle number or middle pointer
+           
+M = Sum of the index L + R / 2 = Average
+M = (0+9)/2 = 
+
 
 [0,1,21,33,]
