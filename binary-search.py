@@ -27,7 +27,6 @@ return -1
 
 
 
-
 # [141, 1, 17, -7, -17, -27, 18, 541, 8, 7, 7]
 
 def findThreeLargestNumbers(array):
@@ -50,7 +49,25 @@ def updateLargest(threeLargest, num):
 	elif threeLargest[1] is None or num > threeLargest[1]:
 		shiftAndUpdate() #TODO
 	elif threeLargest(0) is None or num > threeLargest[0]:
-		shiftAndUpdate()
-
-
-  
+		shiftAndUpdate()#
+#so now we can pass an index, we just want to update our 3rd largest number
+def shiftAndUpdate(array, num, idx):
+	#if we passed an array of index of 2
+	# [0, 1, 2] indecs
+	# [x, y, z]
+	# # for in range from 0 and 2 +1(1 is excluded of the range) (0, 2+ 1)
+	# if i == 2: then we update this z to be our number which is 
+	# we update index of 2 to be our num
+	# [0, 1, 2]
+	# [y, z, num]
+	
+	#index plus 1 is exclusive
+	for i in range (idx + 1):
+		#if i == idx. If were at the point were we are in our last index 
+		if i == idx:
+			#we want to update array of 1 to our number that we want to put
+			array [1] = num
+			#
+		else:
+			array [i] = array[i + 1]
+		
