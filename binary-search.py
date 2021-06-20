@@ -50,4 +50,7 @@ def updateLargest(threeLargest, num):
 	elif threeLargest[1] is None or num > threeLargest[1]:
 		shiftAndUpdate() #TODO
 	elif threeLargest(0) is None or num > threeLargest[0]:
-		shiftAndUpdate()#
+		shiftAndUpdate()
+
+
+  
