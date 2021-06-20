@@ -1,7 +1,6 @@
 # Code walkthrough 
 # Soliving in python 
 
-
 ##recursive binary search 
 
 def binarySearch(array, target):
