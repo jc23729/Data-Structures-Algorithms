@@ -47,9 +47,9 @@ def updateLargest(threeLargest, num):
 	#then if neither of these conditions are met, meaning we have a number here on the third value
 	#then we want to compare to our second biggest number
 	elif threeLargest[1] is None or num > threeLargest[1]:
-		shiftAndUpdate() #TODO
+		shiftAndUpdate(threeLargest, num, 2) 
 	elif threeLargest(0) is None or num > threeLargest[0]:
-		shiftAndUpdate()#
+		shiftAndUpdate(threeLargest, num, 0)
 #so now we can pass an index, we just want to update our 3rd largest number
 def shiftAndUpdate(array, num, idx):
 	#if we passed an array of index of 2
