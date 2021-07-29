@@ -43,3 +43,9 @@
 
 // Input: grid = [[1,-1],[-1,-1]]
 // Output: 3
+
+
+// Example 4:
+
+// Input: grid = [[-1]]
+// Output: 1
