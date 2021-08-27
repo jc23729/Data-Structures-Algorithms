@@ -5,9 +5,11 @@ class Cookie {
     constructor(color) {
         this.color = color
     }
+    // GETTERS
     getColor() {
         return this.color
     }
+    // SETTERS
     setColor(color) {
         this.color = color
     }
