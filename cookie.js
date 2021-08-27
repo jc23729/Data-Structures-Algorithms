@@ -12,6 +12,7 @@ class Cookie {
         this.color = color
     }
 }
- 
+//  we can create new cookies   
 let cookieOne = new Cookie('green')
+// its a specific instance of the class
 let cookieTwo = new Cookie('blue')
