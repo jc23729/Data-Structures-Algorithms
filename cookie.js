@@ -1,3 +1,6 @@
+// Classes is like a coookie cutter
+// classes always have whats called a constructor
+
 class Cookie {
     constructor(color) {
         this.color = color
